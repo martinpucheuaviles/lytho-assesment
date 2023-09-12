@@ -1,0 +1,51 @@
+.gallery-image {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    padding: 1px;
+}
+
+.picture-container {
+    display: flex;
+    justify-content: center;
+    max-height: 80vh;
+    align-items: flex-start;
+    position: relative;
+    overflow: overlay;
+}
+
+.centered-image {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-container button {
+    align-self: flex-start;
+}
+
+.header-container h1 {
+    padding-right: 5%;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.custom-btn-link {
+    font-size: 30px;
+    padding-top: 2%;
+    text-decoration: none !important;
+    transition: text-decoration 0.3s;
+}
+
+.custom-btn-link:hover {
+    text-decoration: none !important;
+}

@@ -1,0 +1,10 @@
+<div class="row" *ngIf="loadGalleryFlag"> 
+    <div class="col-md-12">
+        <app-pictures-gallery (pictureSelected)="loadSelectedPicture($event)"></app-pictures-gallery>
+    </div>
+</div>
+<div class="col-md-12" *ngIf="!loadGalleryFlag">
+    <app-picture-details [picture]="selectedPicture" (returnToGallery)="loadGallery()" ></app-picture-details>
+</div>
+ 
+

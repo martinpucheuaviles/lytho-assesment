@@ -1,0 +1,20 @@
+<div class="row">
+    <div class="col-md-4" *ngFor="let pictureEl of paginatedPictures">
+        <app-picture-gallery [picture] = "pictureEl" (pictureSelected)="onPictureSelected(pictureEl)"></app-picture-gallery>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="text-center">
+            <mat-paginator
+                [length]="pictures.length"
+                [pageSize]="pageSize"
+                [pageSizeOptions]="[]"
+                [pageIndex]="currentPage"
+                [hidePageSize]="true"
+                (page)="onPageChange($event)"
+            ></mat-paginator>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="header-container">
+            <button class="btn btn-link custom-btn-link" (click)="goBack()"> << </button>
+            <h1>{{ picture.name }}</h1>
+        </div>
+        <div class="picture-container">
+        
+            <img [src]="picture.urlPath" alt="Image" class="centered-image">
+        </div>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-md-6">
+            <p>{{ picture.description }}</p>
+    </div>
+</div>
