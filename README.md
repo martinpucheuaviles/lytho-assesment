@@ -1,9 +1,9 @@
 # lytho-assesment
 Pictures application using Angular+Spring+MongoDB for Lytho Assesment.
 
-Using:
-  -OS: win32 x64
-  -Package Manager: npm 9.6.7
+# Using:
+  ## -OS: win32 x64
+  ## -Package Manager: npm 9.6.7
 
 Front-end:
   -Angular CLI: 16.2.1
