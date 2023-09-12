@@ -1,5 +1,5 @@
 # lytho-assesment
-Pictures application using Angular+Spring+MongoDB for Lytho Assesment.
+Pictures application using Angular+Spring+MongoDB for Lytho Assessment.
 
 # Using:
   * OS: win32 x64
